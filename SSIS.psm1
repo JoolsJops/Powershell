@@ -61,8 +61,8 @@ function New-SSISApplication
 {
 	# param
 	#(
-	#[Parameter(position=1, Mandatory=$false)] [string]$SQLServer = 'HOSQUESTION\TIME'
-	#, [Parameter(position=2, Mandatory=$false)] [string]$Database = 'DBS_DW'
+	#[Parameter(position=1, Mandatory=$false)] [string]$SQLServer = ''
+	#, [Parameter(position=2, Mandatory=$false)] [string]$Database = ''
 	#, [Parameter(position=3, Mandatory=$true)] $File 
 	# )
 	Invoke-Assemblies
