@@ -19,6 +19,6 @@ for($intRow = 2 ; $intRow -le $intRowMax ; $intRow++)
         $Value  = $worksheet.cells.item($intRow,$ColumnNumber).value2
         $Duplicates[$Value] = $Duplicates[$Value] + 1
     }  
-
+$Duplicates
 $WorkBook.close()
 $Excel.quit()
